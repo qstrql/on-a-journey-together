@@ -4,6 +4,9 @@
 
 <template>
     <main>
+        <p>
+            SALUT CA VA
+        </p>
         <div class="font-bold text-red-500">
             <div>01</div>
             <div>02</div>
