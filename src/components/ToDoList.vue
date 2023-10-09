@@ -7,7 +7,7 @@
         <p>
             SALUT CA VA
         </p>
-        <div class="font-bold text-red-500">
+        <div class="">
             <div>01</div>
             <div>02</div>
             <div>03</div>
