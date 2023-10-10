@@ -1,9 +1,11 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../views/HomeView.vue' //??
-import Abyss from '../views/Abyss/AbyssGuides.vue'
-import Laby from '../views/Labyrinth.vue'
-import HoT from '../views/HoT.vue'
-import Hunt from '../views/Hunts/HuntGuides.vue'
+import Home from '@/views/HomeView.vue'
+import Abyss from '@/views/AbyssGuides.vue'
+import Laby from '@/views/Labyrinth.vue'
+import HoT from '@/views/HoT.vue'
+import Hunt from '@/views/HuntGuides.vue'
+
+//je dois vraiment import tout mes ptn de fichier ??
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),

@@ -4,6 +4,7 @@
 
 <template>
   <main>
-      Abyss Guides
+    Abyss Guides
   </main>
 </template>
+
