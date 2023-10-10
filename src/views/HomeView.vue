@@ -1,9 +1,22 @@
 <script setup lang="ts">
-  import ToDoList from '@/components/ToDoList.vue'
+
 </script>
 
 <template>
   <main>
-      <ToDoList />
+    <ul>
+      <li>
+        <router-link to="/hunts">Hunts Guides</router-link>
+      </li>
+      <li>
+        <router-link to="/hot">HoT Guides</router-link>
+      </li>
+      <li>
+        <router-link to="/abyss">Abyss Guides</router-link>
+      </li>
+      <li>
+        <router-link to="/labyrinth">Labyrinth Guides</router-link>
+      </li>
+    </ul>
   </main>
 </template>
