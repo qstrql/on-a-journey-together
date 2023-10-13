@@ -4,19 +4,16 @@
 
 <template>
   <main>
-    <ul>
-      <li>
-        <router-link to="/hunts">Hunts Guides</router-link>
-      </li>
-      <li>
-        <router-link to="/hot">HoT Guides</router-link>
-      </li>
-      <li>
-        <router-link to="/abyss">Abyss Guides</router-link>
-      </li>
-      <li>
-        <router-link to="/labyrinth">Labyrinth Guides</router-link>
-      </li>
-    </ul>
+      <div class="main-banner">
+        <router-link class="routerLink" to="/hunts">Hunts Guides - </router-link>
+        <router-link class="routerLink" to="/hot">HoT Guides - </router-link>
+        <router-link class="routerLink" to="/abyss">Abyss Guides - </router-link>
+        <router-link class="routerLink" to="/labyrinth">Labyrinth Guides - </router-link>
+        <router-link class="routerLink" to="/expedition">Expedition Guides</router-link>
+      </div>
+      <div>
+
+      </div>
+
   </main>
 </template>

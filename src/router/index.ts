@@ -4,6 +4,7 @@ import Abyss from '@/views/AbyssGuides.vue'
 import Laby from '@/views/Labyrinth.vue'
 import HoT from '@/views/HoT.vue'
 import Hunt from '@/views/HuntGuides.vue'
+import Expe from '@/views/ExpeditionGuides.vue'
 
 //je dois vraiment import tout mes ptn de fichier ??
 
@@ -34,6 +35,11 @@ const router = createRouter({
       path: '/hunts',
       name: 'hunt',
       component: Hunt
+    },
+    {
+      path: '/expedition',
+      name: 'expedition',
+      component: Expe
     }
   ]
 })
